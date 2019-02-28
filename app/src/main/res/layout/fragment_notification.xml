@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_notification"
+    tools:context=".NotificationFragment">
+
+    <ImageView
+        android:id="@+id/home_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_notifications_black_24dp"
+        android:layout_gravity="center_vertical|center_horizontal" />
+
+</FrameLayout>
